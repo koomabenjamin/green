@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shapeworks.mivule.FinancesActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/finances_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:titleTextColor="@color/colorAccent"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/payments_recycler"
+        android:layout_below="@+id/finances_toolbar"
+        android:layout_marginTop="5dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/view_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/finances_toolbar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="gone">
+
+        <ImageView
+            style="@style/AppTheme.PizzaGuy"
+            android:src="@mipmap/mivule" />
+
+        <TextView
+            style="@style/AppTheme.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No Transactions made as yet"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_loading_forum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/payments_recycler"
+        android:layout_alignTop="@+id/payments_recycler"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

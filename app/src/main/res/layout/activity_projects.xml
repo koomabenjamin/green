@@ -1,0 +1,148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg"
+    tools:context="com.shapeworks.mivule.ProjectsActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/project_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/pfl_icon"-->
+                <!--android:src="@mipmap/mivule"-->
+                <!--app:civ_border_width="1dp"-->
+                <!--app:civ_border_color="#FF0000"-->
+                <!--app:srcCompat="@mipmap/ic_launcher_round"/>-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/title"-->
+                    <!--android:text="Projects"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:textColor="@color/white"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/displayEmail"-->
+                    <!--android:layout_below="@+id/title"-->
+                    <!--android:textColor="@color/white" />-->
+
+            <!--</RelativeLayout>-->
+
+        <!--</LinearLayout>-->
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/filter_bar_container"
+        android:background="@color/bg_screen4" />
+
+    <!-- Empty list (pizza guy) view -->
+    <LinearLayout
+        android:id="@+id/view_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/project_start"
+        android:padding="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="gone">
+
+        <ImageView
+            android:src="@mipmap/mivule"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <TextView
+            style="@style/AppTheme.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="No current projects registered"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD PROJECT"
+            android:background="@drawable/view_btn_rounded"
+            android:textColor="@color/white"
+            android:id="@+id/create_project"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="VISIT"
+            android:textColor="@color/white"
+            android:background="@drawable/view_btn_rounded"
+            android:id="@+id/project_visit"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/recycler_work"
+        android:layout_alignTop="@+id/recycler_work">
+
+        <ProgressBar
+            android:id="@+id/progress_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Add Project"-->
+            <!--android:id="@+id/projec_add"/>-->
+       <!---->
+
+    </LinearLayout>
+
+
+</FrameLayout>

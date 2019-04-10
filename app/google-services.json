@@ -1,0 +1,203 @@
+{
+  "project_info": {
+    "project_number": "569786850784",
+    "firebase_url": "https://mivule-30c90.firebaseio.com",
+    "project_id": "mivule-30c90",
+    "storage_bucket": "mivule-30c90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569786850784:android:723182b5486ba3c8",
+        "android_client_info": {
+          "package_name": "com.example.koomabenjamin.mivule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569786850784-ha0osmtmalu5psj5i7j55i836ucijg7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.koomabenjamin.mivule",
+            "certificate_hash": "8a4c0c05cf0923f18b052bb5d7b7e6e3c6058149"
+          }
+        },
+        {
+          "client_id": "569786850784-ujvl5posni2lf3u6166vpomros9avded.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.koomabenjamin.mivule",
+            "certificate_hash": "19394f14377a95f8c6ccc81c66e0efc20bc81183"
+          }
+        },
+        {
+          "client_id": "569786850784-66ichb7sdqf5jj6bolhmioiasa9ecr3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.koomabenjamin.mivule",
+            "certificate_hash": "772317161cb6623982456cf2e4c4b99f7fbb334f"
+          }
+        },
+        {
+          "client_id": "569786850784-9tq6k7t0i6rq6mdd3arge3ad9e6ujmqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgbLDtLhOAWzz6JUr2sUJzWbEw7nP6Ag0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569786850784-9tq6k7t0i6rq6mdd3arge3ad9e6ujmqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569786850784:android:3c465872be225ea9",
+        "android_client_info": {
+          "package_name": "com.shapeworks.mivule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569786850784-ssghlm3s54uracjtsvte93rms42t7rid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shapeworks.mivule",
+            "certificate_hash": "4766df653035fab5a79aa4709dd7c44c48e8c7d5"
+          }
+        },
+        {
+          "client_id": "569786850784-9tq6k7t0i6rq6mdd3arge3ad9e6ujmqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgbLDtLhOAWzz6JUr2sUJzWbEw7nP6Ag0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569786850784-9tq6k7t0i6rq6mdd3arge3ad9e6ujmqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569786850784:android:c8b4fccb743ec7f6",
+        "android_client_info": {
+          "package_name": "com.shapeworks.mivuleworker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569786850784-lf543qrm0un8pr6s3jvgl8bjp5d8p6d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shapeworks.mivuleworker",
+            "certificate_hash": "4766df653035fab5a79aa4709dd7c44c48e8c7d5"
+          }
+        },
+        {
+          "client_id": "569786850784-9tq6k7t0i6rq6mdd3arge3ad9e6ujmqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgbLDtLhOAWzz6JUr2sUJzWbEw7nP6Ag0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569786850784-9tq6k7t0i6rq6mdd3arge3ad9e6ujmqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569786850784:android:c98d3251317bd0fb",
+        "android_client_info": {
+          "package_name": "com.shapeworks.mivule_00"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569786850784-avt9gn5nbhd39dji61udl4gndhg25p2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shapeworks.mivule_00",
+            "certificate_hash": "4766df653035fab5a79aa4709dd7c44c48e8c7d5"
+          }
+        },
+        {
+          "client_id": "569786850784-9tq6k7t0i6rq6mdd3arge3ad9e6ujmqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgbLDtLhOAWzz6JUr2sUJzWbEw7nP6Ag0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569786850784-9tq6k7t0i6rq6mdd3arge3ad9e6ujmqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

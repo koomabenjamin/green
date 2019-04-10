@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/mivule"
+                android:id="@+id/worker_icon"
+                android:padding="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_weight="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Official Name"
+                    android:textColor="@color/red500"
+                    android:id="@+id/worker_name"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/worker_name"
+                    android:text="introduction and brief about the individual"
+                    android:id="@+id/worker_intro"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:text="kooma.benjamin@gmail.com"
+                    android:layout_below="@+id/worker_intro"
+                    android:textStyle="bold"
+                    android:id="@+id/worker_email"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 years"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/worker_experience"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="available"
+                    android:textSize="15sp"
+                    android:id="@+id/worker_availability"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>

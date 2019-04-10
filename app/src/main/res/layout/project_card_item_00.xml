@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res‐auto"
+        android:id="@+id/card_view"
+        android:layout_width="200dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="220dp"
+        card_view:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/content_holder"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/project_icon"
+                android:padding="20dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"/>
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--android:id="@+id/project_icon"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="100dp"-->
+                <!--app:civ_border_width="1dp"-->
+                <!--app:civ_border_color="#FF0000"/>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_weight="2"
+                android:background="#03721d"
+                android:padding="5dp"
+                android:textAlignment="center">
+
+                <TextView
+                    android:id="@+id/project_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="project_name"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/project_brief"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/project_name"
+                    android:text="project_name"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/project_deadline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/project_brief"
+                    android:text="project_name"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/delete_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clickable="true"-->
+        <!--app:srcCompat="@drawable/ic_delete_forever_black_24dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--app:layout_anchor="@id/card_view"-->
+        <!--app:layout_anchorGravity="right|top" />-->
+
+
+</android.support.design.widget.CoordinatorLayout>

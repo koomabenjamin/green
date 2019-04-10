@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.shapeworks.mivule.LocationActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/location_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <FrameLayout
+            android:id="@+id/container_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/location_toolbar">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/view_empty"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="150dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_below="@+id/finances_toolbar"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+            <!--style="@style/AppTheme.PizzaGuy"-->
+            <!--android:src="@mipmap/mivule" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.Body1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Feature not yet Available"-->
+            <!--android:textColor="@color/colorAccent" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progress_loading_forum"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/payments_recycler"-->
+        <!--android:layout_alignTop="@+id/payments_recycler"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:visibility="gone" />-->
+</RelativeLayout>
